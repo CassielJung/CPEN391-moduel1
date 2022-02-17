@@ -1,0 +1,620 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+                              obj/default/hello_world_small.o (__udivsi3)
+c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                              obj/default/hello_world_small.o (memcpy)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+                              obj/default/hello_world_small.o (alt_ic_isr_register)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o (alt_load)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o (alt_main)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+                              C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+direction           0x4               obj/default/hello_world_small.o
+counter             0x4               obj/default/hello_world_small.o
+brightness          0x4               obj/default/hello_world_small.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000020000 0x0000000000000020
+onchip_memory    0x0000000000020020 0x000000000001f3e0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+LOAD C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a
+                0x0000000000020000                __alt_mem_onchip_memory = 0x20000
+
+.entry          0x0000000000020000       0x20
+ *(.entry)
+ .entry         0x0000000000020000       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+                0x0000000000020000                __reset
+                0x000000000002001c                _exit
+
+.exceptions     0x0000000000020020      0x168
+                0x0000000000020020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0x60 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x000000000002015c       0x2c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000000000002015c                alt_instruction_exception_entry
+                0x0000000000020188                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000020188      0x710
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020188       0x4c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+                0x0000000000020188                _start
+ .text          0x00000000000201d4      0x208 obj/default/hello_world_small.o
+                0x00000000000201d4                timer_ISR
+                0x0000000000020284                displayInt
+                0x000000000002033c                computePrime
+ .text.startup  0x00000000000203dc       0x58 obj/default/hello_world_small.o
+                0x00000000000203dc                main
+ .text          0x0000000000020434      0x1b8 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+                0x0000000000020434                __divsi3
+                0x00000000000204b4                __modsi3
+                0x000000000002052c                __udivsi3
+                0x0000000000020590                __umodsi3
+ .text          0x00000000000205ec        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00000000000205ec       0x28 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                0x00000000000205ec                memcpy
+ .text          0x0000000000020614       0x8c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+                0x0000000000020614                alt_ic_isr_register
+                0x0000000000020618                alt_ic_irq_enable
+                0x0000000000020650                alt_ic_irq_disable
+                0x0000000000020688                alt_ic_irq_enabled
+ .text          0x00000000000206a0       0x68 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                0x00000000000206a0                alt_iic_isr_register
+ .text          0x0000000000020708        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000020708        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000020708        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000020708       0xb4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+                0x0000000000020708                alt_load
+ .text          0x00000000000207bc       0x2c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+                0x00000000000207bc                alt_main
+ .text          0x00000000000207e8       0x24 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x00000000000207e8                alt_irq_init
+                0x0000000000020808                alt_sys_init
+ .text          0x000000000002080c       0x18 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000000000002080c                alt_dcache_flush_all
+ .text          0x0000000000020824        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000020824        0xc C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000020824                alt_icache_flush_all
+ .text          0x0000000000020830       0x28 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000020830                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000020858        0x8 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000020858                altera_nios2_gen2_irq_init
+ .text          0x0000000000020860       0x38 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000020860                alt_icache_flush
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000020898                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000020898                . = ALIGN (0x4)
+
+.rodata         0x0000000000020898       0x28
+                0x0000000000020898                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000020898                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000020898       0x28 obj/default/hello_world_small.o
+ *(.rodata1)
+                0x00000000000208c0                . = ALIGN (0x4)
+                0x00000000000208c0                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000020898                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x00000000000208c0      0x198 load address 0x0000000000020a58
+                0x00000000000208c0                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x00000000000208c0                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000208c0        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .data          0x00000000000208c0      0x190 obj/default/hello_world_small.o
+                0x00000000000208c0                ledPattern
+ .data          0x0000000000020a50        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000020a50        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000020a50        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000028a50                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000020a50        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000020a50                alt_priority_mask
+ .sdata         0x0000000000020a54        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000020a54                jtag_uart
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000020a58                . = ALIGN (0x4)
+                0x0000000000020a58                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000020a58                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000020a58                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000020bf0      0x120
+                0x0000000000020bf0                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000020bf0        0xc obj/default/hello_world_small.o
+                0x0000000000020bf0                direction
+                0x0000000000020bf4                counter
+                0x0000000000020bf8                brightness
+ .sbss          0x0000000000020bfc        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000020bfc                alt_irq_active
+ .sbss          0x0000000000020c00        0xc C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+                0x0000000000020c00                alt_envp
+                0x0000000000020c04                alt_argv
+                0x0000000000020c08                alt_argc
+ .sbss          0x0000000000020c0c        0x4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000020c0c                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .bss           0x0000000000020c10        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000020c10        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000020c10        0x0 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000020c10        0x0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+ *(COMMON)
+ COMMON         0x0000000000020c10      0x100 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000020c10                alt_irq
+                0x0000000000020d10                . = ALIGN (0x4)
+                0x0000000000020d10                __bss_end = ABSOLUTE (.)
+
+.onchip_memory  0x0000000000020d10        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_start = ABSOLUTE (.))
+ *(.onchip_memory .onchip_memory. onchip_memory.*)
+                0x0000000000020d10                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_end = ABSOLUTE (.))
+                0x0000000000020d10                _end = ABSOLUTE (.)
+                0x0000000000020d10                end = ABSOLUTE (.)
+                0x0000000000020d10                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory_load_addr = LOADADDR (.onchip_memory))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c obj/default/hello_world_small.o
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .comment       0x000000000000002c       0x2d c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002c       0x2d C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x278
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x28 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000050       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000070       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000090       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000000d0       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000100       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000120       0x18 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000138       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000158       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000178       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000198       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000001b8       0x38 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000210       0x28 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000238       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000258       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x8a37
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022      0xbdf obj/default/hello_world_small.o
+ .debug_info    0x0000000000000c01      0x368 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000f69      0xc00 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000001b69      0xcbb C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000002824      0xb37 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x000000000000335b       0x22 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000337d      0xa68 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000003de5       0x8b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000003e70      0xaea C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000000000000495a      0xeac C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000005806      0xa83 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000006289      0x944 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000006bcd       0x22 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000006bef      0x958 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000007547      0x212 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000007759      0x952 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000080ab      0x98c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_abbrev   0x0000000000000000     0x1f7d
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x318 obj/default/hello_world_small.o
+ .debug_abbrev  0x000000000000032a      0x103 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x000000000000042d      0x1e3 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000610      0x328 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000000938      0x303 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000000c3b       0x12 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000000c4d      0x28c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000000ed9       0x44 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000000f1d      0x277 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000001194      0x252 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000013e6      0x279 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000165f      0x1f4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001853       0x12 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x0000000000001865      0x20f C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001a74      0x108 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000001b7c      0x1e5 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000001d61      0x21c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_line     0x0000000000000000     0x2176
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x4ed obj/default/hello_world_small.o
+ .debug_line    0x000000000000055f      0x304 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000863      0x274 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000ad7      0x272 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000000d49      0x22e C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000000f77       0x6b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000000fe2      0x1f4 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x00000000000011d6       0x50 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000001226      0x255 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_line    0x000000000000147b      0x2f7 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000001772      0x212 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000001984      0x19e C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001b22       0xb3 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000001bd5      0x1a3 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000001d78       0xee C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000001e66      0x139 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001f9f      0x1d7 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_frame    0x0000000000000000      0x308
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x94 obj/default/hello_world_small.o
+ .debug_frame   0x0000000000000094       0x50 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000000e4       0x20 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000104       0x50 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000154       0x38 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x000000000000018c       0x34 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x00000000000001c0       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000001f0       0x2c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000000000021c       0x3c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000258       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000278       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000298       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x00000000000002c8       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x00000000000002e8       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_str      0x0000000000000000     0x1653
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x6e C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_str     0x000000000000006e      0x595 obj/default/hello_world_small.o
+                                        0x650 (size before relaxing)
+ .debug_str     0x0000000000000603      0x178 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+                                        0x1c3 (size before relaxing)
+ .debug_str     0x000000000000077b      0x3f2 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                                        0x7d9 (size before relaxing)
+ .debug_str     0x0000000000000b6d       0xea C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+                                        0x64a (size before relaxing)
+ .debug_str     0x0000000000000c57       0x37 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x616 (size before relaxing)
+ .debug_str     0x0000000000000c8e       0x18 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+                                         0x77 (size before relaxing)
+ .debug_str     0x0000000000000ca6       0x3a C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+                                        0x5a0 (size before relaxing)
+ .debug_str     0x0000000000000ce0       0x29 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_vars.o)
+                                        0x156 (size before relaxing)
+ .debug_str     0x0000000000000d09      0x113 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+                                        0x638 (size before relaxing)
+ .debug_str     0x0000000000000e1c      0x23b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_main.o)
+                                        0x7f3 (size before relaxing)
+ .debug_str     0x0000000000001057       0xc9 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+                                        0x676 (size before relaxing)
+ .debug_str     0x0000000000001120       0x1f C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x551 (size before relaxing)
+ .debug_str     0x000000000000113f       0x1e C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+                                         0x7d (size before relaxing)
+ .debug_str     0x000000000000115d       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x562 (size before relaxing)
+ .debug_str     0x000000000000118d      0x48b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5bc (size before relaxing)
+ .debug_str     0x0000000000001618       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x565 (size before relaxing)
+ .debug_str     0x0000000000001638       0x1b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+                                        0x557 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xe90
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x112 obj/default/hello_world_small.o
+ .debug_loc     0x0000000000000112      0x5f7 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000000709      0x118 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000000821      0x19b C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00000000000009bc      0x23c C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x0000000000000bf8       0xac C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x0000000000000ca4       0x66 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000000000000d0a       0x25 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000000d2f       0x23 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x0000000000000d52       0xc0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_loc     0x0000000000000e12       0x7e C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+                0x000000000003f400                __alt_data_end = 0x3f400
+                0x000000000003f400                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x3f400)
+OUTPUT(timing_interrupt.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x230
+ .debug_ranges  0x0000000000000000       0x20 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000050       0x70 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1\libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x00000000000000c0       0x10 c:/intelfpga_lite/19.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/8.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .debug_ranges  0x00000000000000d0       0x18 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_ranges  0x00000000000000e8       0x28 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000110       0x28 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000138       0xa0 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x00000000000001d8       0x30 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000208       0x18 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000220       0x10 C:/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp\libhal_bsp.a(alt_icache_flush.o)

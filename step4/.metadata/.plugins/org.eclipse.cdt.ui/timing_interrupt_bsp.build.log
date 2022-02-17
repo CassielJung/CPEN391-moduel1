@@ -1,0 +1,6 @@
+18:14:00 **** Build of configuration Nios II for project timing_interrupt_bsp ****
+wsl make all 
+[BSP build complete]
+
+18:14:01 Build Finished (took 363ms)
+

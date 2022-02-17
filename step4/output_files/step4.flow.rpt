@@ -1,0 +1,136 @@
+Flow report for step4
+Thu Feb 03 09:26:31 2022
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Thu Feb 03 09:25:53 2022       ;
+; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                   ; step4                                       ;
+; Top-level Entity Name           ; step4_top                                   ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 1,521 / 32,070 ( 5 % )                      ;
+; Total registers                 ; 2357                                        ;
+; Total pins                      ; 67 / 457 ( 15 % )                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,087,744 / 4,065,280 ( 27 % )              ;
+; Total DSP Blocks                ; 3 / 87 ( 3 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/03/2022 09:20:36 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; step4               ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                         ;
++-------------------------------------+---------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                                   ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+---------------------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 13718486931826.164390883524472                          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                      ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                       ; --            ; --          ; --         ;
+; MISC_FILE                           ; step4/synthesis/../step4.cmp                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; step4/synthesis/../../step4.qsys                        ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                  ; --            ; step4_top   ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                  ; --            ; step4_top   ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                  ; --            ; step4_top   ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                     ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                   ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                            ; --            ; --          ; --         ;
+; SLD_FILE                            ; step4/synthesis/step4.regmap                            ; --            ; --          ; --         ;
+; SLD_FILE                            ; step4/synthesis/step4.debuginfo                         ; --            ; --          ; --         ;
+; SLD_INFO                            ; QSYS_NAME step4 HAS_SOPCINFO 1 GENERATION_ID 1643592877 ; --            ; --          ; --         ;
+; SOPCINFO_FILE                       ; step4/synthesis/../../step4.sopcinfo                    ; --            ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                      ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; step4_top                                               ; step4         ; --          ; --         ;
++-------------------------------------+---------------------------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:30     ; 1.0                     ; 5062 MB             ; 00:01:49                           ;
+; Fitter               ; 00:03:09     ; 1.1                     ; 6668 MB             ; 00:06:47                           ;
+; Assembler            ; 00:00:25     ; 1.0                     ; 4910 MB             ; 00:00:18                           ;
+; Timing Analyzer      ; 00:00:36     ; 2.1                     ; 5254 MB             ; 00:01:07                           ;
+; Total                ; 00:05:40     ; --                      ; --                  ; 00:10:01                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-K866NDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-K866NDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-K866NDG  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-K866NDG  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off step4 -c step4
+quartus_fit --read_settings_files=off --write_settings_files=off step4 -c step4
+quartus_asm --read_settings_files=off --write_settings_files=off step4 -c step4
+quartus_sta step4 -c step4
+
+
+

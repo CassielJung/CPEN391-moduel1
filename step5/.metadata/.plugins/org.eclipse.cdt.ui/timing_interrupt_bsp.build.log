@@ -1,0 +1,6 @@
+01:53:03 **** Incremental Build of configuration Nios II for project timing_interrupt_bsp ****
+wsl make all 
+[BSP build complete]
+
+01:53:03 Build Finished (took 549ms)
+

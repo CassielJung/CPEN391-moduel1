@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst step5 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst step5.nios2_processor.clock_bridge -pg 1
+preplace inst step5.nios2_processor -pg 1 -lvl 2 -y 90
+preplace inst step5.onchip_memory -pg 1 -lvl 3 -y 350
+preplace inst step5.timer -pg 1 -lvl 3 -y 250
+preplace inst step5.CLOCK_50 -pg 1 -lvl 1 -y 30
+preplace inst step5.nios2_processor.reset_bridge -pg 1
+preplace inst step5.nios2_processor.cpu -pg 1
+preplace inst step5.jtag_uart -pg 1 -lvl 3 -y 50
+preplace inst step5.LEDR -pg 1 -lvl 3 -y 830
+preplace inst step5.prime_number -pg 1 -lvl 3 -y 150
+preplace netloc EXPORT<net_container>step5</net_container>(SLAVE)LEDR.external_connection,(SLAVE)step5.ledr) 1 0 3 NJ 860 NJ 860 NJ
+preplace netloc FAN_OUT<net_container>step5</net_container>(SLAVE)timer.irq,(MASTER)nios2_processor.irq,(SLAVE)jtag_uart.irq) 1 2 1 720
+preplace netloc FAN_OUT<net_container>step5</net_container>(SLAVE)LEDR.clk,(SLAVE)nios2_processor.clk,(SLAVE)jtag_uart.clk,(SLAVE)onchip_memory.clk1,(SLAVE)timer.clk,(SLAVE)prime_number.clock,(MASTER)CLOCK_50.clk) 1 1 2 300 30 780
+preplace netloc INTERCONNECT<net_container>step5</net_container>(SLAVE)timer.s1,(SLAVE)prime_number.avalon_slave_0,(SLAVE)nios2_processor.debug_mem_slave,(SLAVE)onchip_memory.s1,(MASTER)nios2_processor.instruction_master,(SLAVE)LEDR.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)nios2_processor.data_master) 1 1 2 340 880 760
+preplace netloc EXPORT<net_container>step5</net_container>(SLAVE)step5.reset,(SLAVE)CLOCK_50.clk_in_reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>step5</net_container>(SLAVE)timer.reset,(SLAVE)jtag_uart.reset,(SLAVE)LEDR.reset,(MASTER)CLOCK_50.clk_reset,(SLAVE)nios2_processor.reset,(SLAVE)prime_number.reset,(MASTER)nios2_processor.debug_reset_request,(SLAVE)onchip_memory.reset1) 1 1 2 320 50 740
+preplace netloc EXPORT<net_container>step5</net_container>(SLAVE)CLOCK_50.clk_in,(SLAVE)step5.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>step5</net_container>(SLAVE)prime_number.conduit_end,(SLAVE)step5.prime_number) 1 0 3 NJ 230 NJ 230 NJ
+levelinfo -pg 1 0 90 980
+levelinfo -hier step5 100 130 460 820 970

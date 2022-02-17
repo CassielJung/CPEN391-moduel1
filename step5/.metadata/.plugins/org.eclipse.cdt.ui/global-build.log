@@ -1,0 +1,66 @@
+11:13:25 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc.exe -xc -MP -MMD -c -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/HAL/inc -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking step5_optionF.elf
+nios2-elf-g++.exe  -T'C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/linker.x' -msys-crt0='C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp  -msmallc  -Wl,-Map=step5_optionF.map   -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o step5_optionF.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert.exe step5_optionF.elf --thread_model hal --cpu_name nios2_processor --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name step5 --quartus_project_dir "C:/UBC/CPEN391/Module1/module-1-CassielJung/step5" --jdi ../..//output_files/step5.jdi
+Unable to determine program-size.
+Info: Creating step5_optionF.objdump
+nios2-elf-objdump.exe --disassemble --syms --all-header --source step5_optionF.elf >step5_optionF.objdump
+[step5_optionF build complete]
+11:15:28 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+[step5_optionF build complete]
+11:17:21 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+[step5_optionF build complete]
+11:20:30 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc.exe -xc -MP -MMD -c -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/HAL/inc -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking step5_optionF.elf
+nios2-elf-g++.exe  -T'C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/linker.x' -msys-crt0='C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp  -msmallc  -Wl,-Map=step5_optionF.map   -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o step5_optionF.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert.exe step5_optionF.elf --thread_model hal --cpu_name nios2_processor --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name step5 --quartus_project_dir "C:/UBC/CPEN391/Module1/module-1-CassielJung/step5" --jdi ../..//output_files/step5.jdi
+Unable to determine program-size.
+Info: Creating step5_optionF.objdump
+nios2-elf-objdump.exe --disassemble --syms --all-header --source step5_optionF.elf >step5_optionF.objdump
+[step5_optionF build complete]
+11:20:42 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+[step5_optionF build complete]
+11:31:17 **** Incremental Build of configuration Nios II for project step5_optionF ****
+wsl make all 
+touch step5_optionF.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc.exe -xc -MP -MMD -c -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/HAL/inc -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp -IC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking step5_optionF.elf
+nios2-elf-g++.exe  -T'C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/linker.x' -msys-crt0='C:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp/obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LC:/UBC/CPEN391/Module1/module-1-CassielJung/step5/software/step5_optionF_bsp  -msmallc  -Wl,-Map=step5_optionF.map   -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o step5_optionF.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert.exe step5_optionF.elf --thread_model hal --cpu_name nios2_processor --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name step5 --quartus_project_dir "C:/UBC/CPEN391/Module1/module-1-CassielJung/step5" --jdi ../..//output_files/step5.jdi
+Unable to determine program-size.
+Info: Creating step5_optionF.objdump
+nios2-elf-objdump.exe --disassemble --syms --all-header --source step5_optionF.elf >step5_optionF.objdump
+[step5_optionF build complete]

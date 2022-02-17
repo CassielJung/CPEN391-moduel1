@@ -1,0 +1,6 @@
+01:53:00 **** Build of configuration Nios II for project RTOSDemo ****
+wsl make all 
+[BSP build complete]
+
+01:53:01 Build Finished (took 611ms)
+

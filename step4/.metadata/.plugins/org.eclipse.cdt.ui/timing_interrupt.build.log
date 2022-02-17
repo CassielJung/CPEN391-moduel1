@@ -1,0 +1,10 @@
+10:03:16 **** Incremental Build of configuration Nios II for project timing_interrupt ****
+wsl make all 
+touch timing_interrupt.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step4/software/timing_interrupt_bsp/
+[BSP build complete]
+[timing_interrupt build complete]
+
+10:03:19 Build Finished (took 2s.190ms)
+

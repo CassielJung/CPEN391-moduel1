@@ -1,0 +1,6 @@
+14:58:34 **** Clean-only build of configuration Nios II for project step5_optionF_bsp ****
+wsl make clean 
+[BSP clean complete]
+
+14:58:35 Build Finished (took 516ms)
+

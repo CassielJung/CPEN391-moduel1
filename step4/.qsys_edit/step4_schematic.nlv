@@ -1,0 +1,37 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst step4.timer -pg 1 -lvl 3 -y 430
+preplace inst step4.LEDR -pg 1 -lvl 3 -y 910
+preplace inst step4.onchip_memory -pg 1 -lvl 3 -y 530
+preplace inst step4.HEX0 -pg 1 -lvl 3 -y 30
+preplace inst step4.nios2_processor -pg 1 -lvl 2 -y 140
+preplace inst step4.HEX1 -pg 1 -lvl 3 -y 230
+preplace inst step4.HEX2 -pg 1 -lvl 3 -y 1110
+preplace inst step4.nios2_processor.cpu -pg 1
+preplace inst step4.HEX3 -pg 1 -lvl 3 -y 610
+preplace inst step4.HEX4 -pg 1 -lvl 3 -y 710
+preplace inst step4.nios2_processor.clock_bridge -pg 1
+preplace inst step4.HEX5 -pg 1 -lvl 3 -y 810
+preplace inst step4.SW -pg 1 -lvl 3 -y 1010
+preplace inst step4.jtag_uart -pg 1 -lvl 3 -y 330
+preplace inst step4.CLOCK_50 -pg 1 -lvl 1 -y 290
+preplace inst step4.nios2_processor.reset_bridge -pg 1
+preplace inst step4.KEY -pg 1 -lvl 3 -y 130
+preplace inst step4 -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)HEX2.external_connection,(SLAVE)step4.hex2) 1 0 3 NJ 1140 NJ 1140 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)step4.clk,(SLAVE)CLOCK_50.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)HEX0.external_connection,(SLAVE)step4.hex0) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)SW.external_connection,(SLAVE)step4.sw) 1 0 3 NJ 1040 NJ 1040 NJ
+preplace netloc FAN_OUT<net_container>step4</net_container>(SLAVE)jtag_uart.irq,(SLAVE)timer.irq,(MASTER)nios2_processor.irq) 1 2 1 760
+preplace netloc FAN_OUT<net_container>step4</net_container>(MASTER)CLOCK_50.clk,(SLAVE)LEDR.clk,(SLAVE)HEX4.clk,(SLAVE)timer.clk,(SLAVE)HEX0.clk,(SLAVE)nios2_processor.clk,(SLAVE)HEX1.clk,(SLAVE)KEY.clk,(SLAVE)HEX3.clk,(SLAVE)HEX5.clk,(SLAVE)jtag_uart.clk,(SLAVE)HEX2.clk,(SLAVE)SW.clk,(SLAVE)onchip_memory.clk1) 1 1 2 260 1060 780
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)KEY.external_connection,(SLAVE)step4.key) 1 0 3 NJ 260 NJ 280 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)step4.hex5,(SLAVE)HEX5.external_connection) 1 0 3 NJ 840 NJ 840 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)HEX1.external_connection,(SLAVE)step4.hex1) 1 0 3 NJ 280 NJ 300 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)step4.reset,(SLAVE)CLOCK_50.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)HEX4.external_connection,(SLAVE)step4.hex4) 1 0 3 NJ 740 NJ 740 NJ
+preplace netloc INTERCONNECT<net_container>step4</net_container>(SLAVE)onchip_memory.reset1,(SLAVE)SW.reset,(SLAVE)timer.reset,(SLAVE)HEX0.reset,(SLAVE)HEX5.reset,(SLAVE)HEX4.reset,(SLAVE)HEX3.reset,(SLAVE)nios2_processor.reset,(SLAVE)LEDR.reset,(SLAVE)KEY.reset,(MASTER)CLOCK_50.clk_reset,(SLAVE)HEX2.reset,(MASTER)nios2_processor.debug_reset_request,(SLAVE)HEX1.reset,(SLAVE)jtag_uart.reset) 1 1 2 300 1160 800
+preplace netloc INTERCONNECT<net_container>step4</net_container>(SLAVE)onchip_memory.s1,(MASTER)nios2_processor.data_master,(SLAVE)HEX2.s1,(SLAVE)HEX5.s1,(SLAVE)HEX4.s1,(SLAVE)KEY.s1,(SLAVE)nios2_processor.debug_mem_slave,(SLAVE)timer.s1,(SLAVE)HEX1.s1,(SLAVE)SW.s1,(SLAVE)HEX0.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)HEX3.s1,(MASTER)nios2_processor.instruction_master,(SLAVE)LEDR.s1) 1 1 2 340 1180 720
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)step4.ledr,(SLAVE)LEDR.external_connection) 1 0 3 NJ 940 NJ 940 NJ
+preplace netloc EXPORT<net_container>step4</net_container>(SLAVE)step4.hex3,(SLAVE)HEX3.external_connection) 1 0 3 NJ 640 NJ 640 NJ
+levelinfo -pg 1 0 50 1000
+levelinfo -hier step4 60 90 460 840 990

@@ -1,0 +1,84 @@
+module getLast6Digit (
+    input clk,
+    input [31:0] value,
+    output [3:0] digit0, digit1, digit2, digit3, digit4, digit5
+);
+
+    parameter getDigit0 = 4'd0;
+    parameter getDigit1 = 4'd1;
+    parameter getDigit2 = 4'd2;
+    parameter getDigit3 = 4'd3;
+    parameter getDigit4 = 4'd4;
+    parameter getDigit5 = 4'd5;
+    parameter division0 = 4'd6;
+    parameter division1 = 4'd7;
+    parameter division2 = 4'd8;
+    parameter division3 = 4'd9;
+    parameter division4 = 4'd10;
+    
+
+    reg count = 0;
+    reg [3:0] state = 0;
+    reg digit0_tmp, digit1_tmp, digit2_tmp, digit3_tmp, digit4_tmp, digit5_tmp;
+    reg [31:0] val = value;
+    
+    always_ff @(posedge clk) begin
+        case (state)
+            getDigit0: begin
+                digit0_tmp <= val % 10;
+                count <= 0;
+                state <= division0;
+            end
+            division0: begin
+                val <= val / 10;
+            end
+            getDigit1: begin
+                digit1_tmp <= val % 10;
+                count <= count + 1;
+                state <= division1;
+            end
+            division1: begin
+                val <= val / 10;
+            end
+            getDigit2: begin
+                digit2_tmp <= val % 10;
+                count <= count + 1;
+                state <= division2;
+            end
+            division2: begin
+                val <= val / 10;
+            end
+            getDigit3: begin
+                digit3_tmp <= val % 10;
+                count <= count + 1;
+                state <= division3;
+            end
+            division3: begin
+                val <= val / 10;
+            end
+            getDigit4: begin
+                digit4_tmp <= val % 10;
+                count <= count + 1;
+                state <= division4;
+            end
+            division4: begin
+                val <= val / 10;
+            end
+            getDigit5: begin
+                digit5_tmp <= val % 10;
+                count <= count + 1;
+                state <= getDigit5;
+            end
+            default: begin state <= state; val <= val; count <= count; end
+        endcase
+    end
+
+    assign digit0 = digit0_tmp;
+    assign digit1 = digit1_tmp;
+    assign digit2 = digit2_tmp;
+    assign digit3 = digit3_tmp;
+    assign digit4 = digit4_tmp;
+    assign digit5 = digit5_tmp;
+    
+
+endmodule

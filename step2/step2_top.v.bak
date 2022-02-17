@@ -1,0 +1,22 @@
+module step2_top (
+    //////////// CLOCK //////////
+    input                       CLOCK_50;
+    input                       TD_CLK27;
+
+    //////////// LED //////////
+    output           [9:0]      LEDR;
+
+    //////////// KEY //////////
+    input            [3:0]      KEY;
+
+    //////////// SW //////////
+    input            [9:0]      SW;
+
+    //////////// SEG7 //////////
+    output           [6:0]      HEX0;
+    output           [6:0]      HEX1;
+    output           [6:0]      HEX2;
+    output           [6:0]      HEX3;
+    output           [6:0]      HEX4;
+    output           [6:0]      HEX5;
+);

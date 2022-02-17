@@ -1,0 +1,20 @@
+
+State Machine - |step5_top|getLast6Digit:getDigits|state
+Name state.idle state.getDigit5 state.getDigit4 state.getDigit3 state.getDigit2 state.getDigit1 state.getDigit0 state.1011 
+state.getDigit0 0 0 0 0 0 0 0 0 
+state.getDigit1 0 0 0 0 0 1 1 0 
+state.getDigit2 0 0 0 0 1 0 1 0 
+state.getDigit3 0 0 0 1 0 0 1 0 
+state.getDigit4 0 0 1 0 0 0 1 0 
+state.getDigit5 0 1 0 0 0 0 1 0 
+state.idle 1 0 0 0 0 0 1 0 
+state.1011 0 0 0 0 0 0 1 1 
+
+State Machine - |step5_top|step5:u0|step5_nios2_processor:nios2_processor|step5_nios2_processor_cpu:cpu|step5_nios2_processor_cpu_nios2_oci:the_step5_nios2_processor_cpu_nios2_oci|step5_nios2_processor_cpu_debug_slave_wrapper:the_step5_nios2_processor_cpu_debug_slave_wrapper|step5_nios2_processor_cpu_debug_slave_tck:the_step5_nios2_processor_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

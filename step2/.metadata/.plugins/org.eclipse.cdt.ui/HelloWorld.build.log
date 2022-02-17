@@ -1,0 +1,10 @@
+10:40:49 **** Incremental Build of configuration Nios II for project HelloWorld ****
+wsl make all 
+touch HelloWorld.elf.srec
+Info: Building /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step2/software/HelloWorld_bsp/
+make --no-print-directory -C /mnt/c/UBC/CPEN391/Module1/module-1-CassielJung/step2/software/HelloWorld_bsp/
+[BSP build complete]
+[HelloWorld build complete]
+
+10:40:50 Build Finished (took 1s.199ms)
+
